@@ -14,7 +14,6 @@ if cofirm_input:
   for i in range(4):
       answer+=str(items[i])
   while(True):
-      cofirm_input = st.button('輸入確認')     
       number=st.number_input('Enter the number: ')
       st.write(answer)
       if not number.isdigit(): 
