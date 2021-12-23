@@ -17,7 +17,7 @@ while a_count<4:
     else:
         if number==answer:
             st.write('excellent you guess the correct number')
-            random.shuffle(items)
+         #   random.shuffle(items)
             break
         for i in range(4):
             for j in range(4):
