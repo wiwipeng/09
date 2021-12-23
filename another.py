@@ -25,7 +25,7 @@ while(True):
         #    break
             cofirm_input = st.button('輸入確認')
             if cofirm_input: 
-                restart
+                random.shuffle(items)
         for i in range(4):
             for j in range(4):
                 if i==j and number[i]==answer[j]:
