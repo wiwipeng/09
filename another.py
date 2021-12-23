@@ -7,7 +7,7 @@ random.shuffle(items)
 answer=''
 a_count=0 # initial A count
 b_count=0 # initial B count
-for i in (True):
+for i in range(4):
     answer+=str(items[ji])
 while(True):
     number=st.text_input('Enter the number: ')
@@ -28,4 +28,3 @@ while(True):
         st.write('{0}A{1}B'.format(a_count,b_count))
         a_count=0
         b_count=0
-        f
