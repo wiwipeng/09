@@ -5,8 +5,9 @@ import random
 import streamlit as st
 
 items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
-#random.shuffle(items)
-answer=''
+random.shuffle(items)
+#answer=''
+st.write(answer)
 a_count=0 # initial A count
 b_count=0 # initial B count
 #cofirm_input = st.button('輸入確認')
@@ -22,11 +23,7 @@ while(True):
         if number==answer:
             st.write('excellent you guess the correct number')
             random.shuffle(items)
-        #    break
-            cofirm_input = st.button('輸入確認')
-            if cofirm_input: 
-                random.shuffle(items)
-                st.write(answer,'2')
+            break
         for i in range(4):
             for j in range(4):
                 if i==j and number[i]==answer[j]:
