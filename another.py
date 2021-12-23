@@ -9,25 +9,25 @@ random.shuffle(items)
 answer=''
 a_count=0 # initial A count
 b_count=0 # initial B count
-cofirm_input = st.button('輸入確認')
-if cofirm_input:
-  for i in range(4):
-      answer+=str(items[i])
-  while(True):
-      number=st.number_input('Enter the number: ')
-      st.write(answer)
-      if not number.isdigit(): 
-          pass
-      else:
-          if number==answer:
-              print('excellent you guess the correct number')
-              break
-          for i in range(4):
-              for j in range(4):
-                  if i==j and number[i]==answer[j]:
-                      a_count+=1
-                  elif number[i]==answer[j]:
-                      b_count+=1
-          print('{0}A{1}B'.format(a_count,b_count))
-          a_count=0
-          b_count=0
+#cofirm_input = st.button('輸入確認')
+#if cofirm_input:
+for i in range():
+    answer+=str(items[i])
+while(True):
+    number=st.number_input('Enter the number: ')
+    st.write(answer)
+    if not number.isdigit(): 
+        pass
+    else:
+        if number==answer:
+            print('excellent you guess the correct number')
+            break
+        for i in range(4):
+            for j in range(4):
+                if i==j and number[i]==answer[j]:
+                    a_count+=1
+                elif number[i]==answer[j]:
+                    b_count+=1
+        print('{0}A{1}B'.format(a_count,b_count))
+        a_count=0
+        b_count=0
