@@ -9,6 +9,8 @@ random.shuffle(items)
 answer=''
 a_count=0 # initial A count
 b_count=0 # initial B count
+cofirm_input = st.button('輸入確認')
+if cofirm_input:
 for i in range(4):
     answer+=str(items[i])
 while(True):
