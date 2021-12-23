@@ -7,7 +7,7 @@ random.shuffle(items)
 answer=''
 a_count=0 # initial A count
 b_count=0 # initial B count
-for  in range(4):
+for j in range(4):
     answer+=str(items[i])
 while(True)::
     number=st.text_input('Enter the number: ')
