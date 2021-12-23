@@ -14,9 +14,10 @@ b_count=0 # initial B count
 #if cofirm_input:
 for i in range(4):
     answer+=str(items[i])
+    st.write(answer)
 while(True):
     number=st.text_input('Enter the number: ')
-    st.write(answer)
+    #st.write(answer)
     if not number.isdigit(): 
         pass
     else:
