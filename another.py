@@ -28,4 +28,3 @@ while(True):
         st.write('{0}A{1}B'.format(a_count,b_count))
         a_count=0
         b_count=0
-        F
