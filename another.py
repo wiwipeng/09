@@ -12,8 +12,8 @@ b_count=0 # initial B count
 for i in range(4):
     answer+=str(items[i])
 while(True):
+    cofirm_input = st.button('輸入確認')     
     number=st.number_input('Enter the number: ')
-  #  cofirm_input = st.button('輸入確認')     
     st.write(answer)
     if not number.isdigit(): 
         pass
