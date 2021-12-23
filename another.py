@@ -13,6 +13,7 @@ for i in range(4):
     answer+=str(items[i])
 while(True):
     number=st.number_input('Enter the number: ')
+    cofirm_input = st.button('輸入確認')
     if not number.isdigit():  #cheak all input is digit
         pass
     else:
