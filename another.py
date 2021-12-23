@@ -15,7 +15,7 @@ while(True):
     number=st.number_input('Enter the number: ')
     cofirm_input = st.button('輸入確認')     
     st.write(answer)
-    if not number.isdigit():  #cheak all input is digit
+    if not number.isdigit(): 
         pass
     else:
         if number==answer:
