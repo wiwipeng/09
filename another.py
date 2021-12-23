@@ -22,7 +22,7 @@ while(True):
         if number==answer:
             st.write('excellent you guess the correct number')
             random.shuffle(items)
-            break
+        #    break
             cofirm_input = st.button('輸入確認')
             if cofirm_input: 
                 restart
