@@ -12,7 +12,7 @@ for i in range(4):
 
 while(True):
     number=st.text_input('Enter the number: ')
-    #st.write(answer)
+    st.write(answer)
     if not number.isdigit(): 
         pass
     else:
