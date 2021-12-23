@@ -13,7 +13,7 @@ b_count=0 # initial B count
 #if cofirm_input:
 for i in range(4):
     answer+=str(items[i])
-while(True):
+while number==answer:
     number=st.text_input('Enter the number: ')
     st.write(answer)
     if not number.isdigit(): 
@@ -28,6 +28,6 @@ while(True):
                     a_count+=1
                 elif number[i]==answer[j]:
                     b_count+=1
-             print('{0}A{1}B'.format(a_count,b_count))
+        print('{0}A{1}B'.format(a_count,b_count))
         a_count=0
         b_count=0
