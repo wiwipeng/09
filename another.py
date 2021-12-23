@@ -8,7 +8,7 @@ answer=''
 a_count=0 # initial A count
 b_count=0 # initial B count
 for j in range(4):
-    answer+=str(items[i])
+    answer+=str(items[])
 while(True):
     number=st.text_input('Enter the number: ')
     st.write(answer)
