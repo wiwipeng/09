@@ -9,7 +9,7 @@ a_count=0 # initial A count
 b_count=0 # initial B count
 for i in range(4):
     answer+=str(items[i])
-while a_count!=4:
+for (True):
     number=st.text_input('Enter the number: ')
     st.write(answer)
     if not number.isdigit(): 
