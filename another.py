@@ -7,9 +7,9 @@ random.shuffle(items)
 answer=''
 a_count=0 # initial A count
 b_count=0 # initial B count
-for i in range(4):
+for  in range(4):
     answer+=str(items[i])
-for a_count<=4:
+while(True)::
     number=st.text_input('Enter the number: ')
     st.write(answer)
     if not number.isdigit(): 
