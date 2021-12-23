@@ -21,7 +21,7 @@ while(True):
     else:
         if number==answer:
             print('excellent you guess the correct number')
-            break
+  #          break
         for i in range(4):
             for j in range(4):
                 if i==j and number[i]==answer[j]:
